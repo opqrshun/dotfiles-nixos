@@ -23,6 +23,8 @@
   boot.loader.efi.canTouchEfiVariables = true;
   boot.loader.systemd-boot.enable = true;
 
+  #boot.kernelModules = [ "fuse"];
+
   networking.nameservers = ["8.8.8.8"];
   networking.hostName = "takinix"; # Define your hostname.
 
@@ -119,7 +121,11 @@
     home = "/home/taki";
   };
   users.extraUsers.taki.shell=pkgs.zsh;
-  
+
+   users.users.clamav = {
+    isNormalUser = false;
+    home = "/home/clamav";
+  }; 
   # users.extraUsers.taki.extraGroups = [ "wheel" ];
 
 

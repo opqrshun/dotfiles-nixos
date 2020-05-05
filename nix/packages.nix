@@ -13,6 +13,7 @@
 	cloc
 	fd
 	fzf
+	#fuse
 	git
 	htop
         # hub none
@@ -87,6 +88,7 @@
 
 	# security
 	clamav
+
 	
   ];
 
