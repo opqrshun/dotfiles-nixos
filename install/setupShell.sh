@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 function setupZsh() {
-    git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto":
+    git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 
     # install pure prompt
     yarn global add pure-prompt
