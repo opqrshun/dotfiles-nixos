@@ -117,7 +117,7 @@
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.taki = {
     isNormalUser = true;
-    extraGroups = [ "wheel" "networkmanager" ]; # Enable ‘sudo’ for the user.
+    extraGroups = [ "wheel" "networkmanager" "docker"]; # Enable ‘sudo’ for the user.
     home = "/home/taki";
   };
   users.extraUsers.taki.shell=pkgs.zsh;
@@ -129,6 +129,11 @@
   # users.extraUsers.taki.extraGroups = [ "wheel" ];
 
 
+  users.users.test = {
+    isNormalUser = true;
+    extraGroups = [ "wheel" "networkmanager" "docker"]; # Enable ‘sudo’ for the user.
+    home = "/home/test";
+  };
 
   virtualisation.docker.enable = true;
 

@@ -35,7 +35,10 @@ VSCODE_PKG_LIST=(
   amazonwebservices.aws-toolkit-vscode,
   joelday.docthis,
   vscodevim.vim,
-  bbenoist.nix
+  bbenoist.nix,
+  justusadam.language-haskell,
+  ms-azuretools.vscode-docker,
+  hediet.vscode-drawio
 )
 
 for i in "${VSCODE_PKG_LIST[@]}"; do

@@ -29,7 +29,8 @@
 	ripgrep
 	tmux
 	tig
-	tldr
+  tldr
+
 	whois
 	#z
 	zsh
@@ -42,18 +43,17 @@
 	yarn
 
 	php
-        php74Packages.composer
+	php74Packages.composer
+	jdk
 
         #rust
-	#go 
+	go 
         
 
-	#gui-tools
-	keepassxc
 
 
 	# devtools
-        shellcheck
+	shellcheck
 	lazygit
 	lazydocker
 	
@@ -66,22 +66,25 @@
 	aws
 
 
-	# gui
-        alacritty
-	imwheel
+	# gui-dev
+	alacritty
+	vscode
 	copyq
 	filezilla
-	libreoffice
 	noti
-	
 	postman
-	vscode
+	
+	#gui-tools
+	libreoffice
+	imwheel
+	keepassxc
 	google-chrome
 	rednotebook
 	slack
+	zoom-us
 	vlc
 
-        gnome3.gnome-tweaks
+	gnome3.gnome-tweaks
 
 	# drive
 	# unstable.megasync
