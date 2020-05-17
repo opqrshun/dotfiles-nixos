@@ -10,7 +10,7 @@ for file in $linkables ; do
         echo "~${target#$HOME} already exists... Skipping."
     else
         echo "Creating symlink for $file"
-        mv "$file" "$target"
+        mv -f "$file" "$target"
     fi
 done
 
