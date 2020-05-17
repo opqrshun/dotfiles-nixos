@@ -17,7 +17,7 @@
 	git
 	htop
         # hub none
-	lsd
+	exa
 	lsof
 	neofetch
 	nkf
