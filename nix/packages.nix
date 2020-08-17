@@ -3,95 +3,98 @@
 {
     environment.systemPackages = with pkgs; [
       broot
-	wget 
-	vim
-	less
-	curl
-	wget
+      dnsutils
+      wget 
+      vim
+      less
+      curl
+      wget
 
-	bat
-	cmake
-	cloc
-	fd
-	fzf
-	#fuse
-	git
-	htop
-        # hub none
-	exa
-	lsof
-	neofetch
-	nkf
-	neovim
-	nmap
-	pwgen
-	procs
-	ranger
-	ripgrep
-	tmux
-	tig
-  tldr
+      bat
+      cmake
+      cloc
+      fd
+      fzf
+      #fuse
+      git
+      htop
+            # hub none
+      exa
+      lsof
+      neofetch
+      nkf
+      neovim
+      nmap
+      pwgen
+      procs
+      ranger
+      ripgrep
+      tmux
+      tig
+      tldr
 
-	whois
-	#z
-	zsh
+      whois
+      #z
+      zsh
 
 
 	#language
         
-        python38
-        nodejs
-	yarn
+      python38
+      nodejs
+      yarn
 
-	php
-	php74Packages.composer
-	jdk
+      php
+      php74Packages.composer
+      jdk
 
-        #rust
-	go 
+      rust
+      go 
         
 
 
 
 	# devtools
-	shellcheck
-	lazygit
-	lazydocker
+      shellcheck
+      lazygit
+      lazydocker
+      mariadb-client
+      redis
 	
 
    	# ops
-	ansible
-	docker
-	docker-compose
-	terraform
-	aws
+      ansible
+      docker
+      docker-compose
+      terraform
+      aws
 
 
-	# gui-dev
-	alacritty
-	vscode
-	copyq
-	filezilla
-	noti
-	postman
-	
-	#gui-tools
-	libreoffice
-	imwheel
-	keepassxc
-	google-chrome
-	rednotebook
-	slack
-	zoom-us
-	vlc
+      # gui-dev
+      alacritty
+      vscode
+      copyq
+      filezilla
+      noti
+      postman
+      
+      #gui-tools
+      libreoffice
+      imwheel
+      keepassxc
+      google-chrome
+      rednotebook
+      slack
+      zoom-us
+      vlc
 
-	gnome3.gnome-tweaks
+      gnome3.gnome-tweaks
 
-	# drive
-	# unstable.megasync
+      # drive
+      # unstable.megasync
 
-	# security
-	clamav
+      # security
+      clamav
 
 	
   ];
